@@ -1,0 +1,72 @@
+:root{
+    --primary: #68809e;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    background-color: var(--primary);
+    color: rgb(205, 221, 218);
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    max-width:1000px;
+    margin:0 auto;
+    padding:10px 15px;
+    text-align: center;
+  }
+  
+  nav a{
+    text-decoration:none;
+    padding:0 10px;
+  }
+  
+  nav a:hover{
+    text-decoration:underline;
+  }
+  
+  
+  button {
+    background-color: #838072;
+    border: 0;
+    padding: 12px 25px;
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #706d5f
+  }
+
+
+header h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+.login-form {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
